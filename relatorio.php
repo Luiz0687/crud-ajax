@@ -24,7 +24,7 @@ body
  { font-family: Arial, sans-serif; }
 h1
 {
-	color:#a1887f;
+	color: #000;;
 }
 table {
   border-collapse: collapse;
@@ -35,18 +35,18 @@ td,th {
   padding: 10px;
 }
 tr:nth-child(even)
-	{background-color: #f2f2f2}
+	{background-color: #fffffff}
 thead 
 {
-  background-color: #a1887f;
-  color: white;
+  background-color: #607d8b;
+  color: blue-grey;
 }
 </style>
 </head>
 <body>
 ';
 
-$dados .= "<h1 style='text-align: center;text-decoration: underline;'> Relatorio de Ficções Científicas </h1> ";
+$dados .= "<h1 style='text-align: center;text-decoration: underline;'> Relatorio de Vendas </h1> ";
 
 $dados .= "<table>
         <thead>

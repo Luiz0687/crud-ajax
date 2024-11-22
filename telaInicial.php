@@ -21,7 +21,7 @@
     </style>
 </head>
 
-<body class="#f5f5f5 grey lighten-4">
+<body class="#e0e0e0 grey lighten-2">
 
     <?php
     require_once "headerNav.php";
@@ -58,26 +58,26 @@
                     </div>
 
                     <div class="input-field col s12">
-                        <input id="nome" type="text" placeholder="Digite o nome do carro" class="validate" name="nome" pattern="^(?!.*').+$" required>
+                        <input id="nome" type="text" class="validate" name="nome" pattern="^(?!.*').+$" required>
                         <label for="nome">Nome :</label>
                         <span class="helper-text" data-error="Você deve preencher corretamente com nome do carro!"> </span>
                     </div>
 
                     <div class="input-field col s12">
-                        <input id="kilometragem" type="number" placeholder="Digite a kilometragem do carro" class="validate" name="kilometragem" pattern="^(?!.*').+$" required>
+                        <input id="kilometragem" type="number" class="validate" name="kilometragem" pattern="^(?!.*').+$" required>
                         <label for="kilometragem">Kilometragem :</label>
                         <span class="helper-text" data-error="Você deve preencher corretamente com a kilometragem do carro!"> </span>
                     </div>
 
                     <div class="input-field col s12">
-                        <input id="ano" type="number" placeholder="Digite o ano do carro" class="validate" name="ano" pattern="^(?!.*').+$" required>
+                        <input id="ano" type="number"class="validate" name="ano" pattern="^(?!.*').+$" required>
                         <label for="ano">Ano:</label>
                         <span class="helper-text" data-error="Você deve preencher corretamente com o ano do carro!"> </span>
                     </div>
 
 
-                    <button class="btn waves-effect waves-light #00c853 green accent-4 lighten-3 " type="submit">Salvar Venda
-                        <i class="material-icons right">send</i>
+                    <button class="btn waves-effect waves-light #000000 black lighten-3 " type="submit"> Salvar Venda
+                
                     </button><br>
             </form>
             <br>
@@ -115,7 +115,7 @@
                 </tbody>
             </table>
         </div>
-        <a href='relatorio.php' class="brown lighten-3 waves-effect waves-light btn"><i class="material-icons right">add</i>Gerar relatório</a>
+        <a href='relatorio.php' class="#607d8b blue-grey waves-effect waves-light btn">Gerar relatório</a>
     </main>
     <script src="script.js"></script>
 

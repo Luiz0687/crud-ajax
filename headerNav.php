@@ -4,14 +4,14 @@ $paginaCorrente = basename($_SERVER['SCRIPT_NAME']);
 ?>
 
 <div class="navbar-fixed">
-    <nav class="#ffffff white lighten-3">
+    <nav class="#607d8b blue-grey">
         <div class="nav-wrapper container">
             <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons" style="color: black;">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li> <a class="black-text" <?php if ($paginaCorrente == 'index.php') {
+                <li> <a class="white-text" <?php if ($paginaCorrente == 'index.php') {
                                                 echo 'style="text-decoration: underline;"';
                                             } ?> href="index.php">Inicio</a></li>
-                <li> <a class="black-text" <?php if ($paginaCorrente == 'telaInicial.php') {
+                <li> <a class="white-text" <?php if ($paginaCorrente == 'telaInicial.php') {
                                                 echo 'style="text-decoration: underline;"';
                                             } ?> href="telaInicial.php">Cadastro de vendas</a></li>
               
