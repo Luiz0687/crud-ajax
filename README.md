@@ -1,2 +1,1 @@
-# crud-ajax
- 
+# crud-js-ajax
